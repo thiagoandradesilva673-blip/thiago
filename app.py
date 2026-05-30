@@ -15,35 +15,35 @@ carros = [
         "Ano": 2023,
         "Preço": 145000,
         "Combustível": "Flex",
-        "Imagem": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341"
+        "Imagem": "https://cdn.motor1.com/images/mgl/rKE8BX/s3/toyota-lanca-linha-2025-do-corolla.webp"
     },
     {
         "Modelo": "Honda Civic",
         "Ano": 2024,
         "Preço": 165000,
         "Combustível": "Flex",
-        "Imagem": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d"
+        "Imagem": "https://cdn.motor1.com/images/mgl/Gxe7b/s3/2022-honda-civic-mugen-front-view.webp"
     },
     {
         "Modelo": "BMW 320i",
         "Ano": 2023,
         "Preço": 320000,
         "Combustível": "Gasolina",
-        "Imagem": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
+        "Imagem": "https://cdn.motor1.com/images/mgl/KPK4R/s3/bmw-320i-m-sport-2021-teste-br.webp"
     },
     {
         "Modelo": "Tesla Model 3",
         "Ano": 2024,
         "Preço": 350000,
         "Combustível": "Elétrico",
-        "Imagem": "https://images.unsplash.com/photo-1560958089-b8a1929cea89"
+        "Imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLgznmxS5Tm-3FkRCJkOUmouMBL7G_t_qeQ&s"
     }
 ]
 
 df = pd.DataFrame(carros)
 
 # Título
-st.title("lulafoto AutoCar")
+st.title(" AutoCar")
 st.subheader("Encontre o carro ideal para você")
 
 # Sidebar
@@ -95,4 +95,4 @@ for _, carro in filtrado.iterrows():
 
 # Rodapé
 st.markdown("---")
-st.caption("© 2025 AutoCar - Catálogo de veículos")
+st.caption("Thigas.com")
